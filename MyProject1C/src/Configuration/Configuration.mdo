@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c70dd93-93a1-41c5-a0c6-0243c1d5b252">
+  <name>MyProject1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>My project1 C</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ffbda25b-f0f5-4319-afc4-464c332ba131"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="30c0e1c3-3cec-4224-adcf-bac9a7174289"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="40f2853d-9a9b-4a68-9a9b-9b29f890dc27"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c0a18ec5-d4a2-445f-9874-9da44cc847ce"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e01de082-a136-40ab-964b-c5eb9f4355f8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="af318c74-232b-432e-bb5c-147f430cc2be"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d9df3091-b935-4f72-99bf-e43ea32d1fe1"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Лысцев Анлрей Павлвович</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="dde7dc8d-bf9c-4069-80b3-4e2af193e0fc">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <constants>Constant.Адрес</constants>
+  <constants>Constant.Название</constants>
+  <catalogs>Catalog.Запасы</catalogs>
+  <catalogs>Catalog.Лицензии</catalogs>
+  <catalogs>Catalog.Меню</catalogs>
+  <catalogs>Catalog.Номенклатуры</catalogs>
+  <catalogs>Catalog.Роботы</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Столы</catalogs>
+  <documents>Document.Заказ</documents>
+  <documents>Document.Чек</documents>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.СтатусЗаказа</enums>
+</mdclass:Configuration>

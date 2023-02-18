@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93316521-66bd-4558-bae8-bb10db42aa57">
+  <producedTypes>
+    <objectType typeId="4a783eb8-d263-44aa-9a83-ee932b69b74b" valueTypeId="4a70f2f2-d1a9-4f46-a57e-f5ef0c81affe"/>
+    <refType typeId="ba65831d-95e8-4b3a-acbe-711b4cc7b153" valueTypeId="37a1de69-4992-4e65-bec0-6ca2ab1c0675"/>
+    <selectionType typeId="4a24aa0e-3edf-4e8d-a75d-025ad4f172f7" valueTypeId="46ae098b-581a-4bee-aaf4-b4f117a16c92"/>
+    <listType typeId="b14f97a5-9fd6-4ecc-a832-b2b67d1571eb" valueTypeId="84a4da02-38ae-4d67-8e97-5880e22eaf15"/>
+    <managerType typeId="d92218f5-23be-4555-b6c3-2a892b156095" valueTypeId="f0dc0f08-66a2-4c4a-9451-74b351dbe310"/>
+  </producedTypes>
+  <name>Лицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лицензии.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Лицензии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Лицензия</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="75cb1d2c-fe97-4e23-abc2-2e88f84453bb">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16abc2fc-f85f-4c95-a943-9cda0e89ea77">
+    <name>НазваниеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42031edb-0712-4ac8-a219-852c55593616">
+    <name>ДатаОкончанияДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

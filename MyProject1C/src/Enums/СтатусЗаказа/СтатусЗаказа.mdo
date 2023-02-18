@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="070d1edb-79a0-43fb-975c-f551d5ae24b6">
+  <producedTypes>
+    <refType typeId="735202e8-7ba1-45ed-8104-fecae4116592" valueTypeId="190f2a5d-bbc6-4a97-b0c4-8cac9349f4c6"/>
+    <listType typeId="ea62353c-5ddd-4dac-9236-f66d441391a7" valueTypeId="86a132c6-0f47-426a-8746-50e19c411684"/>
+    <managerType typeId="1cba2f93-5f43-4b1f-a4a3-572f0bd4ac6a" valueTypeId="9c6b2752-d735-4b42-903d-1e76781dd4a4"/>
+  </producedTypes>
+  <name>СтатусЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e25404d-e682-40aa-869b-80e248c61b60">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0673b14-731f-44ff-a112-923d8d550d2c">
+    <name>Готовится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовится</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bce0216c-9580-47dc-9030-3cc26ecc70e5">
+    <name>Готов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

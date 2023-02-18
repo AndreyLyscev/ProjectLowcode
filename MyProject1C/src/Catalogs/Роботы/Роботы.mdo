@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c63002c-bf5f-42c2-8f7a-95d0d86868aa">
+  <producedTypes>
+    <objectType typeId="0305b3ff-ee8b-48f7-b773-a49de84161e0" valueTypeId="e443209b-7cf4-4f85-a532-ad4b2dcf8075"/>
+    <refType typeId="6200e5ae-501c-48d7-9868-e8b94f85518b" valueTypeId="75adc6a0-41ac-4727-9ac3-d314ed1eba90"/>
+    <selectionType typeId="b06ef791-46ac-4af6-90ae-74e58817b869" valueTypeId="3bce34e4-ae36-4e1c-b9a6-d4dabaf6c1e6"/>
+    <listType typeId="00cb8abf-aae5-47de-bfd1-da69fbfab867" valueTypeId="8a17f84e-bc2b-40fe-8c74-e113dac9a245"/>
+    <managerType typeId="0df49812-9970-46ea-8b00-5ac277cc8dca" valueTypeId="16b1feff-735e-46d2-a337-c99f05251f3d"/>
+  </producedTypes>
+  <name>Роботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роботы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Роботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Роботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Робот</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d1c5b746-e387-4075-92b6-af396ce59faa">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d417290-5404-4748-8e1c-9b737c28d12b">
+    <name>ДатаВведенияВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата введения в эксплуатацию</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0dfde96-45fc-4849-b476-a876b3109bf6">
+    <name>ДатаПоследнегоТехническогоОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего технического обслуживания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

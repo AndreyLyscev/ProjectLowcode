@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4ccf6d4-3f8b-4423-84e4-67d7eb526c66">
+  <producedTypes>
+    <refType typeId="1af88693-932f-41f0-9b52-16cc18a71b85" valueTypeId="fca012bc-2020-4ecc-b4c3-b1684b9dea32"/>
+    <listType typeId="1952e48d-fefc-4e8e-b87f-3a9249bbd53f" valueTypeId="bd52649b-1e8e-4b76-9585-f130502b8006"/>
+    <managerType typeId="37eec736-5ba5-4d09-b405-cb73ce20e4a7" valueTypeId="addc7841-9e6e-4d6e-b755-95cb8d84b852"/>
+  </producedTypes>
+  <name>Пол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пол</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="df03655d-004f-416f-8316-2a28093a3196">
+    <name>Женский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Женский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5166887d-f9f2-4917-95cd-aee195a5a1b4">
+    <name>Мужской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мужской</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
